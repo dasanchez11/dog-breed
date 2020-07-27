@@ -1,0 +1,9 @@
+C:/Users/Usuario/Desktop/dog-breed/env/Scripts/pandoc.exe filter=lfs diff=lfs merge=lfs -text
+C:/Users/Usuario/Desktop/dog-breed/env/Scripts/pandoc-citeproc.exe filter=lfs diff=lfs merge=lfs -text
+C:/Users/Usuario/Desktop/dog-breed/env/Library/bin/*.dll filter=lfs diff=lfs merge=lfs -text
+C:/Users/Usuario/Desktop/dog-breed/env/Library/bin/*.dll filter=lfs diff=lfs merge=lfs -text
+env/Scripts/pandoc.exe filter=lfs diff=lfs merge=lfs -text
+[[:space:]]env/Lib/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.pyd filter=lfs diff=lfs merge=lfs -text
+env/Lib/site-packages/tensorflow_core/python/_pywrap_tensorflow_internal.pyd filter=lfs diff=lfs merge=lfs -text
+env/Library/bin/mkl_core.dll filter=lfs diff=lfs merge=lfs -text
+env/Scripts/pandoc-citeproc.exe filter=lfs diff=lfs merge=lfs -text
