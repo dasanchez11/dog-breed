@@ -1,0 +1,561 @@
+{
+  "build": "pyhe6710b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "numpy >=1.12.0",
+    "protobuf >=3.8.0",
+    "python",
+    "six >=1.12.0",
+    "tensorflow >=1.14.0"
+  ],
+  "extracted_package_dir": "C:\\Users\\Usuario\\miniconda3\\pkgs\\tensorflow-hub-0.8.0-pyhe6710b0_0",
+  "features": "",
+  "files": [
+    "Scripts/make_image_classifier",
+    "Scripts/make_nearest_neighbour_index",
+    "Lib/site-packages/tensorflow_hub-0.8.0.dist-info/INSTALLER",
+    "Lib/site-packages/tensorflow_hub-0.8.0.dist-info/LICENSE.txt",
+    "Lib/site-packages/tensorflow_hub-0.8.0.dist-info/METADATA",
+    "Lib/site-packages/tensorflow_hub-0.8.0.dist-info/RECORD",
+    "Lib/site-packages/tensorflow_hub-0.8.0.dist-info/WHEEL",
+    "Lib/site-packages/tensorflow_hub-0.8.0.dist-info/entry_points.txt",
+    "Lib/site-packages/tensorflow_hub-0.8.0.dist-info/top_level.txt",
+    "Lib/site-packages/tensorflow_hub/__init__.py",
+    "Lib/site-packages/tensorflow_hub/compressed_module_resolver.py",
+    "Lib/site-packages/tensorflow_hub/config.py",
+    "Lib/site-packages/tensorflow_hub/estimator.py",
+    "Lib/site-packages/tensorflow_hub/feature_column.py",
+    "Lib/site-packages/tensorflow_hub/feature_column_v2.py",
+    "Lib/site-packages/tensorflow_hub/image_module_info_pb2.py",
+    "Lib/site-packages/tensorflow_hub/image_util.py",
+    "Lib/site-packages/tensorflow_hub/keras_layer.py",
+    "Lib/site-packages/tensorflow_hub/meta_graph_lib.py",
+    "Lib/site-packages/tensorflow_hub/module.py",
+    "Lib/site-packages/tensorflow_hub/module_attachment_pb2.py",
+    "Lib/site-packages/tensorflow_hub/module_def_pb2.py",
+    "Lib/site-packages/tensorflow_hub/module_impl.py",
+    "Lib/site-packages/tensorflow_hub/module_spec.py",
+    "Lib/site-packages/tensorflow_hub/module_v2.py",
+    "Lib/site-packages/tensorflow_hub/native_module.py",
+    "Lib/site-packages/tensorflow_hub/registry.py",
+    "Lib/site-packages/tensorflow_hub/resolver.py",
+    "Lib/site-packages/tensorflow_hub/saved_model_lib.py",
+    "Lib/site-packages/tensorflow_hub/saved_model_module.py",
+    "Lib/site-packages/tensorflow_hub/tensor_info.py",
+    "Lib/site-packages/tensorflow_hub/tf_utils.py",
+    "Lib/site-packages/tensorflow_hub/tf_v1.py",
+    "Lib/site-packages/tensorflow_hub/tools/__init__.py",
+    "Lib/site-packages/tensorflow_hub/tools/make_image_classifier/__init__.py",
+    "Lib/site-packages/tensorflow_hub/tools/make_image_classifier/make_image_classifier.py",
+    "Lib/site-packages/tensorflow_hub/tools/make_image_classifier/make_image_classifier_lib.py",
+    "Lib/site-packages/tensorflow_hub/tools/make_nearest_neighbour_index/__init__.py",
+    "Lib/site-packages/tensorflow_hub/tools/make_nearest_neighbour_index/embedding_generator.py",
+    "Lib/site-packages/tensorflow_hub/tools/make_nearest_neighbour_index/index_builder.py",
+    "Lib/site-packages/tensorflow_hub/tools/make_nearest_neighbour_index/make_nearest_neighbour_index.py",
+    "Lib/site-packages/tensorflow_hub/tools/make_nearest_neighbour_index/similarity_finder.py",
+    "Lib/site-packages/tensorflow_hub/version.py",
+    "Lib/site-packages/tensorflow_hub/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/tensorflow_hub/__pycache__/compressed_module_resolver.cpython-37.pyc",
+    "Lib/site-packages/tensorflow_hub/__pycache__/config.cpython-37.pyc",
+    "Lib/site-packages/tensorflow_hub/__pycache__/estimator.cpython-37.pyc",
+    "Lib/site-packages/tensorflow_hub/__pycache__/feature_column.cpython-37.pyc",
+    "Lib/site-packages/tensorflow_hub/__pycache__/feature_column_v2.cpython-37.pyc",
+    "Lib/site-packages/tensorflow_hub/__pycache__/image_module_info_pb2.cpython-37.pyc",
+    "Lib/site-packages/tensorflow_hub/__pycache__/image_util.cpython-37.pyc",
+    "Lib/site-packages/tensorflow_hub/__pycache__/keras_layer.cpython-37.pyc",
+    "Lib/site-packages/tensorflow_hub/__pycache__/meta_graph_lib.cpython-37.pyc",
+    "Lib/site-packages/tensorflow_hub/__pycache__/module.cpython-37.pyc",
+    "Lib/site-packages/tensorflow_hub/__pycache__/module_attachment_pb2.cpython-37.pyc",
+    "Lib/site-packages/tensorflow_hub/__pycache__/module_def_pb2.cpython-37.pyc",
+    "Lib/site-packages/tensorflow_hub/__pycache__/module_impl.cpython-37.pyc",
+    "Lib/site-packages/tensorflow_hub/__pycache__/module_spec.cpython-37.pyc",
+    "Lib/site-packages/tensorflow_hub/__pycache__/module_v2.cpython-37.pyc",
+    "Lib/site-packages/tensorflow_hub/__pycache__/native_module.cpython-37.pyc",
+    "Lib/site-packages/tensorflow_hub/__pycache__/registry.cpython-37.pyc",
+    "Lib/site-packages/tensorflow_hub/__pycache__/resolver.cpython-37.pyc",
+    "Lib/site-packages/tensorflow_hub/__pycache__/saved_model_lib.cpython-37.pyc",
+    "Lib/site-packages/tensorflow_hub/__pycache__/saved_model_module.cpython-37.pyc",
+    "Lib/site-packages/tensorflow_hub/__pycache__/tensor_info.cpython-37.pyc",
+    "Lib/site-packages/tensorflow_hub/__pycache__/tf_utils.cpython-37.pyc",
+    "Lib/site-packages/tensorflow_hub/__pycache__/tf_v1.cpython-37.pyc",
+    "Lib/site-packages/tensorflow_hub/tools/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/tensorflow_hub/tools/make_image_classifier/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/tensorflow_hub/tools/make_image_classifier/__pycache__/make_image_classifier.cpython-37.pyc",
+    "Lib/site-packages/tensorflow_hub/tools/make_image_classifier/__pycache__/make_image_classifier_lib.cpython-37.pyc",
+    "Lib/site-packages/tensorflow_hub/tools/make_nearest_neighbour_index/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/tensorflow_hub/tools/make_nearest_neighbour_index/__pycache__/embedding_generator.cpython-37.pyc",
+    "Lib/site-packages/tensorflow_hub/tools/make_nearest_neighbour_index/__pycache__/index_builder.cpython-37.pyc",
+    "Lib/site-packages/tensorflow_hub/tools/make_nearest_neighbour_index/__pycache__/make_nearest_neighbour_index.cpython-37.pyc",
+    "Lib/site-packages/tensorflow_hub/tools/make_nearest_neighbour_index/__pycache__/similarity_finder.cpython-37.pyc",
+    "Lib/site-packages/tensorflow_hub/__pycache__/version.cpython-37.pyc"
+  ],
+  "fn": "tensorflow-hub-0.8.0-pyhe6710b0_0.conda",
+  "legacy_bz2_md5": "926ac96ff65bd1818a2f4edaabe8430e",
+  "legacy_bz2_size": 72822,
+  "license": "Apache-2.0",
+  "link": {
+    "source": "C:\\Users\\Usuario\\miniconda3\\pkgs\\tensorflow-hub-0.8.0-pyhe6710b0_0",
+    "type": 1
+  },
+  "md5": "11dd7642b121041cb2ee20524d6fe05e",
+  "name": "tensorflow-hub",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\Usuario\\miniconda3\\pkgs\\tensorflow-hub-0.8.0-pyhe6710b0_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "python-scripts/make_image_classifier",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "d1a2f694a06342ddd47f1df13435ef6129cb4c0a426ae51fa8773d5efdade687",
+        "sha256_in_prefix": "4cdf7b85d8681c0f4ea7f2e98d0b42051a22c30916b413b32d74bd3fe6a3e7d7",
+        "size_in_bytes": 331
+      },
+      {
+        "_path": "python-scripts/make_nearest_neighbour_index",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "efa1bd9eb44d4342c13e6039693453628da06694917a39b080bb0ff65d03a0bf",
+        "sha256_in_prefix": "ebafa22990c8b862329ed6aebff13e9f68a28618608187796f88c915fa49111c",
+        "size_in_bytes": 337
+      },
+      {
+        "_path": "site-packages/tensorflow_hub-0.8.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/tensorflow_hub-0.8.0.dist-info/LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "sha256_in_prefix": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+        "size_in_bytes": 11358
+      },
+      {
+        "_path": "site-packages/tensorflow_hub-0.8.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "9d67d5ccbee67f6931e7b2ee2184afee903a33b2be995415b25805279465eee5",
+        "sha256_in_prefix": "9d67d5ccbee67f6931e7b2ee2184afee903a33b2be995415b25805279465eee5",
+        "size_in_bytes": 1721
+      },
+      {
+        "_path": "site-packages/tensorflow_hub-0.8.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "fe5c0b479cb89021bd084f1b69d55ca44721f7931533703547642969240884e3",
+        "sha256_in_prefix": "fe5c0b479cb89021bd084f1b69d55ca44721f7931533703547642969240884e3",
+        "size_in_bytes": 6393
+      },
+      {
+        "_path": "site-packages/tensorflow_hub-0.8.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "9064fbe0b5b245466b2f85602e1ebf835d8879597ff6ef5956169dae05d95046",
+        "sha256_in_prefix": "9064fbe0b5b245466b2f85602e1ebf835d8879597ff6ef5956169dae05d95046",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/tensorflow_hub-0.8.0.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "37b37fd4a247106f71aba1a4182e2ab2f6675000d968f5c09b5c4a9d15cc18e7",
+        "sha256_in_prefix": "37b37fd4a247106f71aba1a4182e2ab2f6675000d968f5c09b5c4a9d15cc18e7",
+        "size_in_bytes": 287
+      },
+      {
+        "_path": "site-packages/tensorflow_hub-0.8.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "27018645374ee6be5eee0a148b09203e9a65c3c93e62b766ca1bc1c9a603e34c",
+        "sha256_in_prefix": "27018645374ee6be5eee0a148b09203e9a65c3c93e62b766ca1bc1c9a603e34c",
+        "size_in_bytes": 15
+      },
+      {
+        "_path": "site-packages/tensorflow_hub/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5505da9dbde1d5bb5436c327f3cac7265cea8a807bab9e6f6f006e89e4ae1445",
+        "sha256_in_prefix": "5505da9dbde1d5bb5436c327f3cac7265cea8a807bab9e6f6f006e89e4ae1445",
+        "size_in_bytes": 3797
+      },
+      {
+        "_path": "site-packages/tensorflow_hub/compressed_module_resolver.py",
+        "path_type": "hardlink",
+        "sha256": "e3201cbee07fbe3a5ebd2cfb2cddad1ec242f55c2a223edf4ff64e28a07d154f",
+        "sha256_in_prefix": "e3201cbee07fbe3a5ebd2cfb2cddad1ec242f55c2a223edf4ff64e28a07d154f",
+        "size_in_bytes": 4061
+      },
+      {
+        "_path": "site-packages/tensorflow_hub/config.py",
+        "path_type": "hardlink",
+        "sha256": "38695414eecd17a17f4cd04a5c7c8a72716193e1b1cb9cb5a0349b07004d25aa",
+        "sha256_in_prefix": "38695414eecd17a17f4cd04a5c7c8a72716193e1b1cb9cb5a0349b07004d25aa",
+        "size_in_bytes": 1519
+      },
+      {
+        "_path": "site-packages/tensorflow_hub/estimator.py",
+        "path_type": "hardlink",
+        "sha256": "6ba47c1a232679c6ddc4232edbf2f7d5d50260db83781932cf73a8acd8400d9a",
+        "sha256_in_prefix": "6ba47c1a232679c6ddc4232edbf2f7d5d50260db83781932cf73a8acd8400d9a",
+        "size_in_bytes": 8508
+      },
+      {
+        "_path": "site-packages/tensorflow_hub/feature_column.py",
+        "path_type": "hardlink",
+        "sha256": "738a9d59097b4963ce7c167f296e484bcbe36909a0296b8a29a1d11fd72a3f4a",
+        "sha256_in_prefix": "738a9d59097b4963ce7c167f296e484bcbe36909a0296b8a29a1d11fd72a3f4a",
+        "size_in_bytes": 22026
+      },
+      {
+        "_path": "site-packages/tensorflow_hub/feature_column_v2.py",
+        "path_type": "hardlink",
+        "sha256": "f3accbf4d86a623d2beed87ac2d497a541b08b919c9690a59983f571413fb6c3",
+        "sha256_in_prefix": "f3accbf4d86a623d2beed87ac2d497a541b08b919c9690a59983f571413fb6c3",
+        "size_in_bytes": 6051
+      },
+      {
+        "_path": "site-packages/tensorflow_hub/image_module_info_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "936ef2bce7a7ecec3bb00639b134981016b6e5a19504434f45145e1d2beb9b37",
+        "sha256_in_prefix": "936ef2bce7a7ecec3bb00639b134981016b6e5a19504434f45145e1d2beb9b37",
+        "size_in_bytes": 4017
+      },
+      {
+        "_path": "site-packages/tensorflow_hub/image_util.py",
+        "path_type": "hardlink",
+        "sha256": "8202a4cc78bc825d64343a4809a4a9ef2393a09fdc9f643252aed0aca66830a6",
+        "sha256_in_prefix": "8202a4cc78bc825d64343a4809a4a9ef2393a09fdc9f643252aed0aca66830a6",
+        "size_in_bytes": 5240
+      },
+      {
+        "_path": "site-packages/tensorflow_hub/keras_layer.py",
+        "path_type": "hardlink",
+        "sha256": "67981d5ca5fca2d8e11799a27ef788a169da09c2bb1b6d19c1afd71a20fecc0e",
+        "sha256_in_prefix": "67981d5ca5fca2d8e11799a27ef788a169da09c2bb1b6d19c1afd71a20fecc0e",
+        "size_in_bytes": 18788
+      },
+      {
+        "_path": "site-packages/tensorflow_hub/meta_graph_lib.py",
+        "path_type": "hardlink",
+        "sha256": "8b2c78213963f6b9c76059e9e8e49a0be963751c7b6db7cfa8f53a62f2d7cf58",
+        "sha256_in_prefix": "8b2c78213963f6b9c76059e9e8e49a0be963751c7b6db7cfa8f53a62f2d7cf58",
+        "size_in_bytes": 5134
+      },
+      {
+        "_path": "site-packages/tensorflow_hub/module.py",
+        "path_type": "hardlink",
+        "sha256": "28d28f6b840f2f281e7f5faadd784085b382dc0b3dec11f3023d0448e6960d68",
+        "sha256_in_prefix": "28d28f6b840f2f281e7f5faadd784085b382dc0b3dec11f3023d0448e6960d68",
+        "size_in_bytes": 22857
+      },
+      {
+        "_path": "site-packages/tensorflow_hub/module_attachment_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "988fee5c2456be6946cb75f68e27282b59146fa0f7917dd0f5e576bffc80324d",
+        "sha256_in_prefix": "988fee5c2456be6946cb75f68e27282b59146fa0f7917dd0f5e576bffc80324d",
+        "size_in_bytes": 2520
+      },
+      {
+        "_path": "site-packages/tensorflow_hub/module_def_pb2.py",
+        "path_type": "hardlink",
+        "sha256": "01ebb3505d35dda18e2934cd833f1f2c45e4042c1346736cdfcefa592af949ad",
+        "sha256_in_prefix": "01ebb3505d35dda18e2934cd833f1f2c45e4042c1346736cdfcefa592af949ad",
+        "size_in_bytes": 3276
+      },
+      {
+        "_path": "site-packages/tensorflow_hub/module_impl.py",
+        "path_type": "hardlink",
+        "sha256": "8025f76998fb99965989ec576041a92ea588c66260a505b366c1812cec76e17a",
+        "sha256_in_prefix": "8025f76998fb99965989ec576041a92ea588c66260a505b366c1812cec76e17a",
+        "size_in_bytes": 2132
+      },
+      {
+        "_path": "site-packages/tensorflow_hub/module_spec.py",
+        "path_type": "hardlink",
+        "sha256": "9406bb51427dac8e51554a326f9555fd5c4c8f3b730e60a4279e4db4ea4738ae",
+        "sha256_in_prefix": "9406bb51427dac8e51554a326f9555fd5c4c8f3b730e60a4279e4db4ea4738ae",
+        "size_in_bytes": 7783
+      },
+      {
+        "_path": "site-packages/tensorflow_hub/module_v2.py",
+        "path_type": "hardlink",
+        "sha256": "3f60325f32c21866280231eb67c349463313f23fd24f409c7668dce67ecb417b",
+        "sha256_in_prefix": "3f60325f32c21866280231eb67c349463313f23fd24f409c7668dce67ecb417b",
+        "size_in_bytes": 4196
+      },
+      {
+        "_path": "site-packages/tensorflow_hub/native_module.py",
+        "path_type": "hardlink",
+        "sha256": "c539cb65c80760210041560508e042d00dddcd401f04f54f98a7253ee058b2ad",
+        "sha256_in_prefix": "c539cb65c80760210041560508e042d00dddcd401f04f54f98a7253ee058b2ad",
+        "size_in_bytes": 47147
+      },
+      {
+        "_path": "site-packages/tensorflow_hub/registry.py",
+        "path_type": "hardlink",
+        "sha256": "1f96885c2454a182a19575b33eefec979342bc537cb94687f837d65e69c159ce",
+        "sha256_in_prefix": "1f96885c2454a182a19575b33eefec979342bc537cb94687f837d65e69c159ce",
+        "size_in_bytes": 1817
+      },
+      {
+        "_path": "site-packages/tensorflow_hub/resolver.py",
+        "path_type": "hardlink",
+        "sha256": "7dc79067abddc17f8d961d35d67bd07ad58034396174ed6f6b5be1f16863ccb4",
+        "sha256_in_prefix": "7dc79067abddc17f8d961d35d67bd07ad58034396174ed6f6b5be1f16863ccb4",
+        "size_in_bytes": 18873
+      },
+      {
+        "_path": "site-packages/tensorflow_hub/saved_model_lib.py",
+        "path_type": "hardlink",
+        "sha256": "a96c3b959632afb31ac4da0b31623ac5ba14db90fb945dd3af6ec2e9747d2c00",
+        "sha256_in_prefix": "a96c3b959632afb31ac4da0b31623ac5ba14db90fb945dd3af6ec2e9747d2c00",
+        "size_in_bytes": 17628
+      },
+      {
+        "_path": "site-packages/tensorflow_hub/saved_model_module.py",
+        "path_type": "hardlink",
+        "sha256": "bad1b81697be4202a0b03aefc23427cb371b394c0626662f03bdf13c37e4b80f",
+        "sha256_in_prefix": "bad1b81697be4202a0b03aefc23427cb371b394c0626662f03bdf13c37e4b80f",
+        "size_in_bytes": 4106
+      },
+      {
+        "_path": "site-packages/tensorflow_hub/tensor_info.py",
+        "path_type": "hardlink",
+        "sha256": "b20faaae516ec2b37544fe68d7e2386fbc39b3d2755f3ee4ca154088f7be17e3",
+        "sha256_in_prefix": "b20faaae516ec2b37544fe68d7e2386fbc39b3d2755f3ee4ca154088f7be17e3",
+        "size_in_bytes": 8537
+      },
+      {
+        "_path": "site-packages/tensorflow_hub/tf_utils.py",
+        "path_type": "hardlink",
+        "sha256": "4c5b8829cdb164f9a66084922e631ef84d944234a1d4e1c154d761bf4cd8d62f",
+        "sha256_in_prefix": "4c5b8829cdb164f9a66084922e631ef84d944234a1d4e1c154d761bf4cd8d62f",
+        "size_in_bytes": 7887
+      },
+      {
+        "_path": "site-packages/tensorflow_hub/tf_v1.py",
+        "path_type": "hardlink",
+        "sha256": "b666519cd117fe7cd5a0bdfb2a26fe437267cbc4a7fc516ed0e307ff1049f6bd",
+        "sha256_in_prefix": "b666519cd117fe7cd5a0bdfb2a26fe437267cbc4a7fc516ed0e307ff1049f6bd",
+        "size_in_bytes": 3299
+      },
+      {
+        "_path": "site-packages/tensorflow_hub/tools/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "817bdf15d5bd52a4c4829ee1a4c827a89884c77e03e2f7c0f8217346bcae00d7",
+        "sha256_in_prefix": "817bdf15d5bd52a4c4829ee1a4c827a89884c77e03e2f7c0f8217346bcae00d7",
+        "size_in_bytes": 693
+      },
+      {
+        "_path": "site-packages/tensorflow_hub/tools/make_image_classifier/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorflow_hub/tools/make_image_classifier/make_image_classifier.py",
+        "path_type": "hardlink",
+        "sha256": "c23e482ccaa27e3ed8a2ccae3081398aabe350d7aeb6ad8d4c7aacf16a5cd016",
+        "sha256_in_prefix": "c23e482ccaa27e3ed8a2ccae3081398aabe350d7aeb6ad8d4c7aacf16a5cd016",
+        "size_in_bytes": 9449
+      },
+      {
+        "_path": "site-packages/tensorflow_hub/tools/make_image_classifier/make_image_classifier_lib.py",
+        "path_type": "hardlink",
+        "sha256": "6b79f61c38780b35c6cb98d40cd2901996afc7eb24bc402e2b79ecef92845b99",
+        "sha256_in_prefix": "6b79f61c38780b35c6cb98d40cd2901996afc7eb24bc402e2b79ecef92845b99",
+        "size_in_bytes": 10990
+      },
+      {
+        "_path": "site-packages/tensorflow_hub/tools/make_nearest_neighbour_index/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/tensorflow_hub/tools/make_nearest_neighbour_index/embedding_generator.py",
+        "path_type": "hardlink",
+        "sha256": "d01ef90a51d22714dc03761b152ccfb8d18df79a6e90ff48db212c0ce5a16431",
+        "sha256_in_prefix": "d01ef90a51d22714dc03761b152ccfb8d18df79a6e90ff48db212c0ce5a16431",
+        "size_in_bytes": 4525
+      },
+      {
+        "_path": "site-packages/tensorflow_hub/tools/make_nearest_neighbour_index/index_builder.py",
+        "path_type": "hardlink",
+        "sha256": "83693ae629ede921397602d6fa2c47898487255dd8248b0a6a2476939cc930f6",
+        "sha256_in_prefix": "83693ae629ede921397602d6fa2c47898487255dd8248b0a6a2476939cc930f6",
+        "size_in_bytes": 4198
+      },
+      {
+        "_path": "site-packages/tensorflow_hub/tools/make_nearest_neighbour_index/make_nearest_neighbour_index.py",
+        "path_type": "hardlink",
+        "sha256": "93a50aa860e2bceca2df2bdc2e407b0f96903bf4a28cce5753dabefa70cdb3b9",
+        "sha256_in_prefix": "93a50aa860e2bceca2df2bdc2e407b0f96903bf4a28cce5753dabefa70cdb3b9",
+        "size_in_bytes": 6048
+      },
+      {
+        "_path": "site-packages/tensorflow_hub/tools/make_nearest_neighbour_index/similarity_finder.py",
+        "path_type": "hardlink",
+        "sha256": "b0177fbe75b3490935b7a8a997b80b8e4b458c75fb4e5d0d7890d3c95e893406",
+        "sha256_in_prefix": "b0177fbe75b3490935b7a8a997b80b8e4b458c75fb4e5d0d7890d3c95e893406",
+        "size_in_bytes": 3113
+      },
+      {
+        "_path": "site-packages/tensorflow_hub/version.py",
+        "path_type": "hardlink",
+        "sha256": "c1eaf09728b026b36585b96c949f11ac0a87e3cda5d4f02a42a64f95ca039f13",
+        "sha256_in_prefix": "c1eaf09728b026b36585b96c949f11ac0a87e3cda5d4f02a42a64f95ca039f13",
+        "size_in_bytes": 751
+      },
+      {
+        "_path": "Lib/site-packages/tensorflow_hub/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorflow_hub/__pycache__/compressed_module_resolver.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorflow_hub/__pycache__/config.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorflow_hub/__pycache__/estimator.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorflow_hub/__pycache__/feature_column.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorflow_hub/__pycache__/feature_column_v2.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorflow_hub/__pycache__/image_module_info_pb2.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorflow_hub/__pycache__/image_util.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorflow_hub/__pycache__/keras_layer.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorflow_hub/__pycache__/meta_graph_lib.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorflow_hub/__pycache__/module.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorflow_hub/__pycache__/module_attachment_pb2.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorflow_hub/__pycache__/module_def_pb2.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorflow_hub/__pycache__/module_impl.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorflow_hub/__pycache__/module_spec.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorflow_hub/__pycache__/module_v2.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorflow_hub/__pycache__/native_module.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorflow_hub/__pycache__/registry.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorflow_hub/__pycache__/resolver.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorflow_hub/__pycache__/saved_model_lib.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorflow_hub/__pycache__/saved_model_module.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorflow_hub/__pycache__/tensor_info.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorflow_hub/__pycache__/tf_utils.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorflow_hub/__pycache__/tf_v1.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorflow_hub/tools/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorflow_hub/tools/make_image_classifier/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorflow_hub/tools/make_image_classifier/__pycache__/make_image_classifier.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorflow_hub/tools/make_image_classifier/__pycache__/make_image_classifier_lib.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorflow_hub/tools/make_nearest_neighbour_index/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorflow_hub/tools/make_nearest_neighbour_index/__pycache__/embedding_generator.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorflow_hub/tools/make_nearest_neighbour_index/__pycache__/index_builder.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorflow_hub/tools/make_nearest_neighbour_index/__pycache__/make_nearest_neighbour_index.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorflow_hub/tools/make_nearest_neighbour_index/__pycache__/similarity_finder.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/tensorflow_hub/__pycache__/version.cpython-37.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "tensorflow-hub",
+  "sha256": "ded40847da0f9834ecbe12b7f8525ab177374f1c831785b4609c23a9a0e3c18f",
+  "size": 73854,
+  "subdir": "noarch",
+  "timestamp": 1587501578145,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/tensorflow-hub-0.8.0-pyhe6710b0_0.conda",
+  "version": "0.8.0"
+}

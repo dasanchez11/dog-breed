@@ -1,0 +1,82 @@
+{
+  "build": "py37_7",
+  "build_number": 7,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "ipykernel",
+    "ipywidgets",
+    "jupyter_console",
+    "nbconvert",
+    "notebook",
+    "python >=3.7,<3.8.0a0",
+    "qtconsole"
+  ],
+  "extracted_package_dir": "C:\\Users\\Usuario\\miniconda3\\pkgs\\jupyter-1.0.0-py37_7",
+  "features": "",
+  "files": [
+    "Lib/site-packages/jupyter-1.0.0.dist-info/INSTALLER",
+    "Lib/site-packages/jupyter-1.0.0.dist-info/METADATA",
+    "Lib/site-packages/jupyter-1.0.0.dist-info/RECORD",
+    "Lib/site-packages/jupyter-1.0.0.dist-info/WHEEL",
+    "Lib/site-packages/jupyter-1.0.0.dist-info/top_level.txt"
+  ],
+  "fn": "jupyter-1.0.0-py37_7.conda",
+  "legacy_bz2_md5": "6806e2413e432237e566a914d3b7a518",
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "C:\\Users\\Usuario\\miniconda3\\pkgs\\jupyter-1.0.0-py37_7",
+    "type": 1
+  },
+  "md5": "8dd20794e73990cd417cd526d34bab1e",
+  "name": "jupyter",
+  "package_tarball_full_path": "C:\\Users\\Usuario\\miniconda3\\pkgs\\jupyter-1.0.0-py37_7.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/jupyter-1.0.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "Lib/site-packages/jupyter-1.0.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "216cc47049035ff360e39fa8cb75c47f9da327411358e97b9c1f2d474561d5d0",
+        "sha256_in_prefix": "216cc47049035ff360e39fa8cb75c47f9da327411358e97b9c1f2d474561d5d0",
+        "size_in_bytes": 995
+      },
+      {
+        "_path": "Lib/site-packages/jupyter-1.0.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "b4caa55a35b945111793c5b1f6907ed14c391b55ea160745bcba557d51ddd179",
+        "sha256_in_prefix": "b4caa55a35b945111793c5b1f6907ed14c391b55ea160745bcba557d51ddd179",
+        "size_in_bytes": 494
+      },
+      {
+        "_path": "Lib/site-packages/jupyter-1.0.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "086e75e8c7b54c4c90aa440ca90a670da76b5a2eee8cf93cf29a1202edce9624",
+        "sha256_in_prefix": "086e75e8c7b54c4c90aa440ca90a670da76b5a2eee8cf93cf29a1202edce9624",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "Lib/site-packages/jupyter-1.0.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "ce72f0b7a376799ffbbb57931dceab5c9e1cea2254ce6855d4d37bdc7ba54e44",
+        "sha256_in_prefix": "ce72f0b7a376799ffbbb57931dceab5c9e1cea2254ce6855d4d37bdc7ba54e44",
+        "size_in_bytes": 8
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "jupyter",
+  "sha256": "de88ce4ff1e5204d9c7bfe45ccd26e1251d7f52bb5aa30bcd905565148b453c8",
+  "size": 6468,
+  "subdir": "win-64",
+  "timestamp": 1537455147605,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/jupyter-1.0.0-py37_7.conda",
+  "version": "1.0.0"
+}

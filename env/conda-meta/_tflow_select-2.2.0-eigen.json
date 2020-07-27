@@ -1,0 +1,32 @@
+{
+  "build": "eigen",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "C:\\Users\\Usuario\\miniconda3\\pkgs\\_tflow_select-2.2.0-eigen",
+  "features": "",
+  "files": [],
+  "fn": "_tflow_select-2.2.0-eigen.conda",
+  "legacy_bz2_md5": "9f0a8a3fcd4783d14c090282577e5b13",
+  "legacy_bz2_size": 3004,
+  "link": {
+    "source": "C:\\Users\\Usuario\\miniconda3\\pkgs\\_tflow_select-2.2.0-eigen",
+    "type": 1
+  },
+  "md5": "386e3bf3d93648532de4d58219c5d59e",
+  "name": "_tflow_select",
+  "package_tarball_full_path": "C:\\Users\\Usuario\\miniconda3\\pkgs\\_tflow_select-2.2.0-eigen.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c213a43f888d797d62a2ff438bdd0d76623cbb1b8fc11f555ccdfbdcbafdfef7",
+  "size": 3433,
+  "subdir": "win-64",
+  "timestamp": 1538709815212,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/_tflow_select-2.2.0-eigen.conda",
+  "version": "2.2.0"
+}

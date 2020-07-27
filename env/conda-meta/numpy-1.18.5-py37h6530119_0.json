@@ -1,0 +1,44 @@
+{
+  "build": "py37h6530119_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "blas 1.0 mkl",
+    "icc_rt >=2019.0.0",
+    "mkl >=2019.4,<2021.0a0",
+    "mkl-service >=2,<3.0a0",
+    "mkl_fft",
+    "mkl_random",
+    "numpy-base 1.18.5.*",
+    "python >=3.7,<3.8.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\Usuario\\miniconda3\\pkgs\\numpy-1.18.5-py37h6530119_0",
+  "features": "",
+  "files": [],
+  "fn": "numpy-1.18.5-py37h6530119_0.conda",
+  "legacy_bz2_md5": "3f38f3b9250e58fe5725943d3b0396e5",
+  "legacy_bz2_size": 4845,
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "C:\\Users\\Usuario\\miniconda3\\pkgs\\numpy-1.18.5-py37h6530119_0",
+    "type": 1
+  },
+  "md5": "c1df6043030d6827c2398239a7140353",
+  "name": "numpy",
+  "package_tarball_full_path": "C:\\Users\\Usuario\\miniconda3\\pkgs\\numpy-1.18.5-py37h6530119_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "numpy",
+  "sha256": "49c9905a81bb8944c362ac4358315658fce2247957da2b7834e975cd23bb8c0f",
+  "size": 5152,
+  "subdir": "win-64",
+  "timestamp": 1592509856068,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/numpy-1.18.5-py37h6530119_0.conda",
+  "version": "1.18.5"
+}
