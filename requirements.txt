@@ -48,7 +48,7 @@ mkl-service==2.3.0
 nbconvert @ file:///C:/ci/nbconvert_1594372737468/work
 nbformat==5.0.7
 notebook==6.0.3
-numpy==1.18.5
+numpy==1.22.0
 oauthlib==3.1.0
 olefile==0.46
 opt-einsum==3.1.0
